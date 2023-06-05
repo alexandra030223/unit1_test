@@ -1,4 +1,4 @@
-package L1_HM_Java_Fagurel_Alexandra;
+package Homeworks.L1;
 import java.util.Scanner;
 public class GalToLit {
     public static void main(String[] args){
