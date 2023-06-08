@@ -1,4 +1,4 @@
-package L4_Method;
+package L4_Methods;
 public class VehicleDemo {
     public static void main(String [] args){
 

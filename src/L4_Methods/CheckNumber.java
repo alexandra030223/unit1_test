@@ -1,4 +1,4 @@
-package L4_Method;
+package L4_Methods;
 public class CheckNumber {
     static boolean isEven(int x){
         if((x%2)==0) return true;
