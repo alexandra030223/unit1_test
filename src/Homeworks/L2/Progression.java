@@ -5,7 +5,6 @@ public class Progression {
         int first;
         int d;
         int last;
-
         System.out.println("Ведите множитель для расчета геометрической прогрессии: ");
         Scanner progressionNumber = new Scanner(System.in);
         d = progressionNumber.nextInt();
