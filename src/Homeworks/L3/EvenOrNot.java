@@ -1,4 +1,5 @@
 package Homeworks.L3;
+
 import java.util.Scanner;
 public class EvenOrNot {
     public static void main(String[]args){

@@ -27,8 +27,5 @@ public class Languages {
             default:
                 System.out.print("Зaпpoc не найден.");
         }
-
-
-
     }
 }
