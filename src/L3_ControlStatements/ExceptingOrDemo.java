@@ -1,6 +1,4 @@
-package L3;
-
-import java.util.Scanner;
+package L3_ControlStatements;
 
 public class ExceptingOrDemo {
     public static void main(String[] args) {

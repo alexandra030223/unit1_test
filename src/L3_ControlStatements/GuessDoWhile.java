@@ -1,4 +1,4 @@
-package L3;
+package L3_ControlStatements;
 import java.util.Scanner;
 public class GuessDoWhile {
     public static void main(String[] args) {
