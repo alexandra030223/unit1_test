@@ -1,4 +1,4 @@
-package L3_ControlStatements;
+package L3_Control_Statement;
 public class BreakDemoNested {
     public static void main(String [] args){
         for (int i=0; i<3; i++){

@@ -1,4 +1,4 @@
-package L3_ControlStatements;
+package L3_Control_Statement;
 public class ReturnDemo {
     public static void main(String [] args){
         boolean t = true;
