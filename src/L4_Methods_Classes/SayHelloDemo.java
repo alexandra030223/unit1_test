@@ -1,4 +1,4 @@
-package L4_Methods;
+package L4_Methods_Classes;
 import java.util.Scanner;
 public class SayHelloDemo {
     public static void main(String [] args){

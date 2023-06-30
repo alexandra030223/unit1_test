@@ -1,4 +1,4 @@
-package L4_Methods;
+package L4_Methods_Classes;
 
 public class ParameterDemo {
     public static void main(String[]args){

@@ -1,11 +1,11 @@
-package L4_Methods;
+package L4_Methods_Classes;
 public class VehicleDemo {
     public static void main(String [] args){
 
         Vehicle minivan; //Объявляем ссылочную пер
-        minivan = new Vehicle(); //иницилизируем -выделяем память для
-        Vehicle sportcar = new Vehicle();
-
+        minivan = new Vehicle(7, 16, 21); //иницилизируем -выделяем память для
+        Vehicle sportcar = new Vehicle(2,14,22);
+        Vehicle randomVehicle = new Vehicle();
         Vehicle car1 = new Vehicle();
         Vehicle car2 = car1;
 

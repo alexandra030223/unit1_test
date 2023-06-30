@@ -1,8 +1,16 @@
-package L4_Methods;
+package L4_Methods_Classes;
 public class Vehicle {
     int passenger;
     int fuelcap;
     int mpg;
+
+    Vehicle(int passengerValue, int fuelcapValue, int mpgValue){
+        passenger = passengerValue;
+        fuelcap = fuelcapValue;
+        mpg = mpgValue;
+    }
+    Vehicle(){
+    }
  void printRange(String name){
      System.out.println(name + " can  take "
              + passenger

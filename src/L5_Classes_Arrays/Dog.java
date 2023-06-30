@@ -1,4 +1,4 @@
-package L5_Classes;
+package L5_Classes_Arrays;
 public class Dog {
         int age;
         String breed;
@@ -16,7 +16,7 @@ public class Dog {
             this(ageValue, breedValue, nameValue, sexValue);
             isHealthy = isHealthyValue;
     }
-    Dog(){
+    public Dog(){
 
     }
 }
