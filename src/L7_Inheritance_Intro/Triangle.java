@@ -1,6 +1,14 @@
 package L7_Inheritance_Intro;
-public class Triangle extends TwoDimensionShape{
-    String style;
+final public class Triangle extends TwoDimensionShape{
+    private String style;
+
+    public String getStyle() {
+        return style;
+    }
+
+    public void setStyle(String style) {
+        this.style = style;
+    }
 
     Triangle(){
         super();
@@ -10,9 +18,9 @@ public class Triangle extends TwoDimensionShape{
         super(width, height);
         this.style = style;
     }
-
+    @Override
     double area(){
-        return getWidth() * getHeight()/2;
+        return getWidth() * getHeight() / 2;
     }
     void showStyle(){
         System.out.println("The triangle is " + style);

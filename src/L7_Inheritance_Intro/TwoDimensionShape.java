@@ -1,6 +1,6 @@
 package L7_Inheritance_Intro;
 
-public class TwoDimensionShape {
+abstract class TwoDimensionShape {
     private double width;
     private double height;
     public double getWidth() {
@@ -24,7 +24,10 @@ public class TwoDimensionShape {
         setHeight(height);
     }
 
-    void showDim(){
+    final void showDim(){
         System.out.println("Width and height: " + width + " & " + height);
     }
-}
+    abstract double area();
+    }
+
+

@@ -7,7 +7,14 @@ public class Rectangle extends TwoDimensionShape {
     boolean isSquare(){
         return getWidth() == getHeight() ? true : false;
     }
+
+    @Override
     double area(){
         return getWidth() * getHeight();
     }
+//    @Override
+//    void showDim(){
+//        System.out.println("Width and height: " + getWidth() + " & " + getHeight() + "WARNING!");
+//    } MUST NOT OVERRIDE FINAL METHOD!
 }
+

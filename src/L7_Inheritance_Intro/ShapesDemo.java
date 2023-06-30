@@ -1,10 +1,10 @@
 package L7_Inheritance_Intro;
 public class ShapesDemo {
     public static void main(String[] args) {
-        TwoDimensionShape twoDshape = new TwoDimensionShape(23,45);
         Triangle t1 = new Triangle(2,3, "transparent");
         Triangle t2 = new Triangle(3,7,"colored");
         Rectangle r1 = new Rectangle(20,30);
+        ColorTriangle ct1 = new ColorTriangle("red", "big", 12, 156);
 
         System.out.println("Info about t1: ");
         t1.showStyle();
@@ -21,7 +21,10 @@ public class ShapesDemo {
         System.out.println("Area of r1: " + r1.area());
         System.out.println("Is square: " + r1.isSquare());
 
-        Triangle t3 = new Triangle();
-        System.out.println(t3.style.toUpperCase());
+//        System.out.println("Info about ct1: ");
+//        ct1.showDim();
+//        System.out.println("Area of ct1: " + ct1.area());
+//        System.out.println("Color of ct1: " + ct1.getColor());
+//        ct1.showColor();
     }
 }
