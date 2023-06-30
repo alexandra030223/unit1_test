@@ -1,14 +1,11 @@
-package Homeworks.L5HW_Java_Classes_Fagurel_Alexandra;
+package Homeworks.L5HW_Java_Arrays_Fagurel_Alexandra;
 public class Avg {
     public static void main(String[] args) {
-        double [] array;
-        array = new double[10];
+        double nums[] = { 1.1, 2.2, 3.3, 4.4, 5.5,
+                6.6, 7.7, 8.8, 9.9, 10.10 };
         double sum = 0;
-        for(int i = 0; i < array.length; i++){
-            double random = Math.random();
-            array[i] = ();
-            sum += array[i];
-        System.out.println("Average: " + sum / array.length);
-        }
+        for(int i=0; i < nums.length; i++)
+            sum += nums[i];
+        System.out.println("Average: " + sum / nums.length);
     }
 }

@@ -1,4 +1,4 @@
-package Homeworks.L5HW_Java_Classes_Fagurel_Alexandra;
+package Homeworks.L5HW_Java_Arrays_Fagurel_Alexandra;
 public class Bubble {
     public static void main(String[] args) {
         int nums[] = {99, -10, 100123, 18, -978,

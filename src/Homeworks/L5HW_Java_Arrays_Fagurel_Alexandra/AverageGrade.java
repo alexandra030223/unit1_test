@@ -1,4 +1,4 @@
-package Homeworks.L5HW_Java_Classes_Fagurel_Alexandra;
+package Homeworks.L5HW_Java_Arrays_Fagurel_Alexandra;
 
 import java.util.Scanner;
 public class AverageGrade {
